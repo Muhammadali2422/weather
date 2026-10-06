@@ -1,0 +1,118 @@
+
+
+* {
+    font-family: Arial, sans-serif;
+    color: #303841;
+}
+
+body {
+    /* background: linear-gradient(to right, #f6f4db, #ecf6d7); */
+    background-color: #f2e9de;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+    background-color: #f2e9de;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 15px 5px #cdc1b2;
+    border-radius: 15px;
+    border: none
+}
+
+.student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px #cdc1b2;
+}
+
+.student .name {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.input input {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #bc9a70;
+    margin-top: 10px;
+}
+
+.input .btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+.weather-card {
+    background: #f5efe7;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px #cdc1b2;
+    margin: 20px auto;
+    text-align: left;
+    width: 30%;
+}
+
+.country_name {
+    background: #f5efe7;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px #cdc1b2;
+    margin: 20px auto;
+    text-align: center;
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .country_name, .weather-card {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+.weather-card p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.city {
+    text-align: center;
+    font-size: 40px;
+}
+
+#image {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 15px 5px #cdc1b2;
+    border-radius: 50%;
+    background-color: #cfe2f7;
+}
+
+.std {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#degree, #d {
+    font-size: 60px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    letter-spacing: -5px;
+}

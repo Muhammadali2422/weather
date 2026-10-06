@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="student">
+            <h1>Ob-havo</h1>
+        </div>
+        <hr>
+        <div class="input">
+            <input id="input" type="text" placeholder="Please enter city name...">
+            <button id="btn" class="btn">Send</button>
+        </div>
+        <div class="country_name">
+            <img id="image" alt="weather icon">
+            <h3 id="country"> ... </h3>
+            <p id="clear"> ... </p>
+        </div>
+        <div class="weather-card">
+            <h3 class="city"><span id="city"> ... </span></h3>
+            <hr>
+            <p id="d"><span id="degree"> ... </span>&deg; C</p>
+            <hr>
+            <p><i class="bi bi-droplet"></i> <span id="humidity"> ... </span> g/ms<sup>3</sup></p>
+            <hr>
+            <p><i class="bi bi-speedometer2"> </i><span id="pressure"> ... </span> hPa</p>
+            <hr>
+            <p><i class="bi bi-wind"></i> <span id="wind"> ... </span> m/s</p>
+            <hr>
+            <p><i class="bi bi-sunrise"></i> <span id="sunrise"> ... </span> H:m</p>
+            <hr>
+            <p><i class="bi bi-sunset"></i> <span id="sunset"> ... </span> H:m</p>
+        </div>
+    </div>
+
+    <script src="./weather.js"></script>
+</body>
+</html>
